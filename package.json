@@ -1,0 +1,26 @@
+{
+  "name": "cleaningweb",
+  "version": "1.0.0",
+  "description": "Zamitiz's Cleaning LLC is a business entity based in Mountlake Terrace, WA.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Cleaning",
+    "services",
+    "Cleaning",
+    "Company",
+    "Deep",
+    "Cleaning"
+  ],
+  "author": "Zamitiz's Cleaning LLC",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.91.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.1",
+    "bootstrap": "^5.3.3"
+  }
+}

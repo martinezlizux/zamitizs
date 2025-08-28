@@ -1,0 +1,148 @@
+// Overwrite Bootstrap 
+// MY THEME COLORS
+
+:root {
+    --gray-950: rgba(20, 21, 21, 1);
+    --gray-900: rgba(38, 39, 39, 1);
+    --gray-800: rgba(75, 78, 78, 1);
+    --gray-700: rgba(113, 117, 117, 1);
+    --gray-600: rgba(154, 157, 157, 1);
+    --gray-500: rgba(192, 194, 194, 1);
+    --gray-400: rgba(206, 207, 207, 1);
+    --gray-300: rgba(216, 217, 217, 1);
+    --gray-200: rgba(229, 230, 230, 1);
+    --gray-100: rgba(242, 242, 242, 1);
+    --gray-50: rgba(250, 250, 250, 1);
+    --sunset-950: rgba(32, 21, 4, 1);
+    --sunset-900: rgba(60, 39, 7, 1);
+    --sunset-800: rgba(124, 82, 14, 1);
+    --sunset-700: rgba(183, 121, 21, 1);
+    --sunset-600: rgba(231, 160, 44, 1);
+    --sunset-500: rgba(238, 187, 104, 1);
+    --sunset-400: rgba(242, 201, 136, 1);
+    --sunset-300: rgba(245, 213, 163, 1);
+    --sunset-200: rgba(248, 228, 195, 1);
+    --sunset-100: rgba(251, 240, 223, 1);
+    --sunset-50: rgba(253, 249, 241, 1);
+    --breeze-950: rgba(2, 9, 13, 1);
+    --breeze-900: rgba(4, 16, 22, 1);
+    --breeze-800: rgba(9, 35, 47, 1);
+    --breeze-700: rgba(13, 50, 69, 1);
+    --breeze-600: rgba(17, 66, 91, 1);
+    --breeze-500: rgba(21, 84, 115, 1);
+    --breeze-400: rgba(32, 129, 177, 1);
+    --breeze-300: rgba(65, 169, 220, 1);
+    --breeze-200: rgba(130, 198, 232, 1);
+    --breeze-100: rgba(190, 226, 243, 1);
+    --breeze-50: rgba(225, 241, 249, 1);
+    --mint-950: rgba(3, 7, 3, 1);
+    --mint-900: rgba(6, 14, 6, 1);
+    --mint-800: rgba(11, 25, 11, 1);
+    --mint-700: rgba(18, 39, 17, 1);
+    --mint-600: rgba(24, 53, 23, 1);
+    --mint-500: rgba(30, 66, 29, 1);
+    --mint-400: rgba(57, 124, 55, 1);
+    --mint-300: rgba(85, 179, 81, 1);
+    --mint-200: rgba(140, 204, 138, 1);
+    --mint-100: rgba(199, 230, 198, 1);
+    --mint-50: rgba(227, 243, 227, 1);
+    --orange-950: rgba(25, 10, 6, 1);
+    --orange-900: rgba(50, 20, 11, 1);
+    --orange-800: rgba(96, 39, 22, 1);
+    --orange-700: rgba(146, 59, 33, 1);
+    --orange-600: rgba(196, 79, 44, 1);
+    --orange-500: rgba(216, 113, 82, 1);
+    --orange-400: rgba(224, 142, 118, 1);
+    --orange-300: rgba(232, 170, 151, 1);
+    --orange-200: rgba(239, 197, 184, 1);
+    --orange-100: rgba(247, 228, 222, 1);
+    --orange-50: rgba(251, 241, 238, 1);
+    --clean-950: rgba(32, 24, 14, 1);
+    --clean-900: rgba(68, 50, 29, 1);
+    --clean-800: rgba(136, 101, 57, 1);
+    --clean-700: rgba(190, 150, 101, 1);
+    --clean-600: rgba(219, 196, 169, 1);
+    --clean-500: rgba(247, 242, 236, 1);
+    --clean-400: rgba(249, 245, 241, 1);
+    --clean-300: rgba(250, 248, 244, 1);
+    --clean-200: rgba(252, 250, 248, 1);
+    --clean-100: rgba(253, 253, 251, 1);
+    --clean-50: rgba(253, 253, 251, 1);
+
+    --bs-btn-border-radius: 20px!important;
+
+  }
+
+
+  $c-mint-darker:  #1E421D;
+  $c-mint-dark:    #1E421D;
+  $c-mint-base:    #397C37;
+  $c-mint-light:   #C7E6C6;
+  $c-mint-lighter: #E3F3E3;
+
+  $c-breeze-darker: #11425B;
+  $c-breeze-dark:   #155473;
+  $c-breeze-base:   #2081B1;
+  $c-breeze-light:  #82C6E8;
+  $c-breeze-lighter:  #E1F1F9;
+
+  $c-sunset-darker:   #B77915;
+  $c-sunset-dark:     #E7A02C;
+  $c-sunset-base:     #EEBB68;
+  $c-sunset-light:    #F5D5A3;
+  $c-sunset-lighter: #FDF9F1;
+
+
+  $c-orange-darker:   #923B21;
+  $c-orange-dark:   #C44F2C;
+  $c-orange-base:   #D87152;
+  $c-orange-light:   #EFC5B8;
+  $c-orange-lighter:  #FBF1EE;
+
+
+  $c-clean-darker:    #923B21;
+  $c-clean-dark:   #C44F2C;
+  $c-clean-base:   #D87152;
+  $c-clean-light:   #E8AA97;
+  $c-clean-lighter:  #FBF1EE;
+
+  $c-gray-darker:  #262727;
+  $c-gray-dark:  #717575;
+  $c-gray-base:  #C0C2C2;
+  $c-gray-light:  #D8D9D9;
+  $c-gray-lighter:  #F2F2F2;
+
+
+
+// OVEWRITE THEME BOOTSTRAP
+$primary:       $c-mint-dark;
+$secondary:     $c-sunset-dark;
+$success:       $c-mint-base;
+$info:          $c-breeze-light;
+$warning:       $c-sunset-dark;
+// $danger:        $red;
+$light:         $c-gray-light;
+$dark:          $c-gray-darker;
+
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.btn-secondary{
+  color: #fff;
+  background-color: $c-sunset-dark;
+}
+
+.btn-primary{
+  background-color: $c-mint-base;
+  color: #fff;
+}
+
+.txt-white{
+  color: #fff;
+}
+
+
+.btn{
+  border-radius: 20px!important;
+}
